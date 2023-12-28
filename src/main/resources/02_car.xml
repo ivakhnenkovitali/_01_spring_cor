@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+<bean name="car1" class="_02_car.SimpleCar"/>
+
+
+    <bean name="car2" class="_02_car.SimpleCar">
+            <constructor-arg value="BelGee"/>
+    <bean>
+
+        <beag name="car3" class="02_car.SimpleCar">
+            <property name="id" value="1"/>
+        </beag>
+
+        <bean name="car4" class="02_car.SimpleCar">
+            <constructor-arg index="0" value="2"/>
+            <constructor-arg index="1" value="Ferraie"/>
+
+        </bean>
+
+        <bean name="car6" class="02_car.SimpleCar">
+            <constructor-arg index="1" value="WV"/>
+            <constructor-arg index
+        </bean>
+
+
+    </bean>
+
+
+
+</beans>
