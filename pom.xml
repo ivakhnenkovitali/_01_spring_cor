@@ -16,12 +16,11 @@
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
     <dependencies>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>6.1.0</version>
-            <scope>test</scope>
+
         </dependency>
 
     </dependencies>
