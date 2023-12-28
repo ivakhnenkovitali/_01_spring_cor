@@ -4,7 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
 <bean name="car1" class="_02_car.SimpleCar"/>
 
-
     <bean name="car2" class="_02_car.SimpleCar">
             <constructor-arg value="BelGee"/>
     <bean>
@@ -21,12 +20,18 @@
 
         <bean name="car6" class="02_car.SimpleCar">
             <constructor-arg index="1" value="WV"/>
-            <constructor-arg index
+            <constructor-arg index="0" vlue="3"/>
         </bean>
 
 
-    </bean>
+        <bean name="eco" class="02_car.Engine">
+            <constructor-arg value="ECO"/>
+        </bean>
 
 
-
+        <bean name="car7" class="02_car.ComplexCar">
+            <constructor-arg name="id" value="7"/>
+            <constructor-arg name="model" value="Tesla"/>
+            <constructor-arg name="engine" ref="eco"/>
+        </bean>
 </beans>

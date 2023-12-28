@@ -16,5 +16,9 @@ public class Main {
         cars.add(ctx.getBean("car6", SimpleCar.class));
 
         cars.forEach(System.out::println);
+
+        var car7 = ctx.getBean("car7", ComplexCar.class);
+        System.out.println(car7);
+
     }
 }
