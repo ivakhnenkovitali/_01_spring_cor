@@ -4,8 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+    <bean name="gas" class="_02_car.Engine">
+        <constructor-arg value="Gasoline"/>
 
-      <bean name="car" class="_02_car.SimpleCar" scope="prototype"/>
+    </bean>
 
 
+
+
+    <bean name="car" class="_04_autowire.AutoCar" autowire=""
 </beans>
