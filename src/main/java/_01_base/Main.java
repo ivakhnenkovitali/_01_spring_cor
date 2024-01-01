@@ -10,3 +10,4 @@ public class Main {
         System.out.println(message);
     }
 }
+///предоставляет комплексную модель
