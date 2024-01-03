@@ -4,11 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean name="default-message" class="java.lang.String"/>
-    <bean name="message" class="java.lang.String">
-        <constructor-arg
-                value="Hello IT...!!!"/>  <!-- все объекты называются (бинг-bean) - внутри контейнеры  ...... -->
-
-
+    <bean name="gas" class="_02_car.Engine">
+        <constructor-arg value="Gasoline"/>
     </bean>
+
+
+    <bean name="car" class="_04_autowire.AutoCar" autowire="constructor"/>
 </beans>
