@@ -6,11 +6,8 @@
 
     <bean name="gas" class="_02_car.Engine">
         <constructor-arg value="Gasoline"/>
-
     </bean>
 
 
-
-
-    <bean name="car" class="_04_autowire.AutoCar" autowire=""
+    <bean name="car" class="_04_autowire.AutoCar" autowire="constructor"/>
 </beans>

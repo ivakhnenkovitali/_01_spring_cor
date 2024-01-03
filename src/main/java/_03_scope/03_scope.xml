@@ -4,8 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-
-      <bean name="car" class="_02_car.SimpleCar" scope="prototype"/>
+    <bean name="car" class="_02_car.SimpleCar" scope="prototype"/>
 
 
 </beans>

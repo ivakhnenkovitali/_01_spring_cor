@@ -4,12 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+    <bean name="default-message" class="java.lang.String"/>
+    <bean name="message" class="java.lang.String">
+        <constructor-arg
+                value="Hello world!!!"/>  <!-- все объекты называются (бинг-bean) - внутри контейнеры  ...... -->
 
 
-   <bean name="default-message" class="java.lang.String"/>
-<bean name="message" class="java.lang.String">
-        <constructor-arg value="Hello world!!!"/>  <!-- все объекты называются (бинг-bean) - внутри контейнеры  ...... -->
-
-
-</bean>
+    </bean>
 </beans>
