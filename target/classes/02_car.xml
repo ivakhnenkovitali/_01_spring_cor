@@ -4,7 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
 
 
-    <bean name="car1" class="_02_car.SimpleCar"/>
+    <bean name="car1" class="_02_car.SimpleCar"/>   <!-- имя ссылки  консткуктор по умолчанию-->
+
     <bean name="car2" class="_02_car.SimpleCar">
         <constructor-arg value="BelGee"/>
     </bean>
@@ -31,6 +32,4 @@
         <constructor-arg index="1" value="WV"/>
         <constructor-arg index="0" value="3"/>
     </bean>
-
-
 </beans>

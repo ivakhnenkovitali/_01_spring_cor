@@ -7,7 +7,7 @@ public class Main {
         var ctx = new ClassPathXmlApplicationContext("01_helloworld.xml");
         ///// наш контекст будет описон в xml файле- коробочка.
 
-
+        ///var message = ctx.getBean("default-message", String.class);
         var message = ctx.getBean("message", String.class);
         System.out.println(message);
     }
