@@ -7,10 +7,11 @@ public class ComplexCar {
     private String model;
     private Engine engine;
 
-    public ComplexCar(int id, String model, Engine engine) {
-        this.id = id;
-        this.model = model;
-        this.engine = engine;
+
+
+
+    public ComplexCar( Engine engine) {
+        this.engine =engine;
     }
 
     @Override

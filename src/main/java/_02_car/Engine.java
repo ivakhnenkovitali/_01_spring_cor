@@ -1,6 +1,6 @@
 package _02_car;
 
-public class Engine {
+public class Engine {     ///// двигатель
     private String type;
 
 

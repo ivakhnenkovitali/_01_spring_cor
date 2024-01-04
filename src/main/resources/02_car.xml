@@ -32,4 +32,14 @@
         <constructor-arg index="1" value="WV"/>
         <constructor-arg index="0" value="3"/>
     </bean>
+    <bean name="eco" class="_02_car.Engine">
+        <constructor-arg value="ECO"/>
+    </bean>
+
+
+    <bean name="car7" class="_02_car.ComplexCar">
+        <constructor-arg name="id" value="7"/>
+        <constructor-arg name="model" value="Tesla"/>
+        <constructor-arg name="engine" ref="eco"/>
+    </bean>
 </beans>
