@@ -18,5 +18,9 @@ public class Main {
 
         var cars = Arrays.asList(car1, car2, car3);
         cars.forEach(System.out::println);
+
+        
+        var lib = ctx.getBean("library", Library.class);
+        System.out.println(lib);
     }
 }
